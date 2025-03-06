@@ -10,7 +10,9 @@ public class Application {
 		System.out.println("Area = " + sq.getArea() + " details: " + sq);
 		Triangle tri2 = new Triangle("red",1.1F, 2.0F);
 		System.out.println("Triangle2 equals to Triangle1: " + tri.equals(tri2));
-		Triangle tri3 = new Triangle("brown",1.1F, 2.0F);
+		Triangle tri3 = new Triangle("brown", 1.1F, 2.0F);
 		System.out.println("Triangle3 equals to Triangle1: " + tri.equals(tri3));
 	}
+
+
 }

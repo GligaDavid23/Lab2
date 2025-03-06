@@ -21,6 +21,6 @@ public class Triangle extends Form {
 		return super.toString() + "\nHeight: " + height + "\nBase: " + base;
 	}
 	public Boolean equals(Triangle triangle){
-		return triangle.height==(Math.sqrt(3)*base)/2;
+		return this.height == triangle.height && this.base == triangle.base;
 	}
 }
